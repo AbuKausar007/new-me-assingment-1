@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+header {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+
+.header-container {
+    padding-right: 230px;
+    padding-top: 180px;
+    text-align: right;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.heading-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.heading-line-height {
+    margin-top: 10px;
+}
+
+.primary-btn {
+    background: #F15B22;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-btn {
+    margin-top: 28px;
+}
