@@ -99,11 +99,12 @@ header {
 
 .failure-container {
     padding: 0 220px;
-    margin: 150px 0;
+    margin: 50px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 .fail-cause {
     padding-left: 70px;
@@ -130,7 +131,7 @@ header {
 
 /* my plan area styles */
 .my-plan-container {
-    margin: 150px 0 150px 0;
+    margin: 50px 0;
     padding: 0 220px;
 }
 
@@ -166,7 +167,7 @@ header {
     background-repeat: no-repeat;
     border-radius: 8px;
     background-blend-mode: multiply;
-    margin: 0 220px;
+    margin: 100px  220px  0 220px;
 }
 
 .positive-text {
