@@ -56,7 +56,7 @@ header {
 
 /* failure-part-style */
 main {
-    margin: 0 220px 0 230px;
+    margin: 0 220px;
 }
 
 .failure-container {
@@ -113,4 +113,32 @@ main {
     font-weight: 500;
     font-size: 18px;
     color: #737272;
+}
+
+/* positive part styles */
+.positive-container {
+    background-image: url("/images/watch.png"), url("/images/gradient/gradient3.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-blend-mode:multiply;
+}
+
+.positive-text {
+    padding: 35px;
+
+}
+
+.positive-text>h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+}
+
+.call-btn {
+    margin-top: 15px;
+    background-color: #fff;
+    color: #F15B22;
 }
