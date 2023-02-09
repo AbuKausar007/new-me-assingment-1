@@ -53,3 +53,64 @@ header {
 .contact-btn {
     margin-top: 28px;
 }
+
+/* failure-part-style */
+main {
+    margin: 0 220px 0 230px;
+}
+
+.failure-container {
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fail-cause {
+    padding-left: 70px;
+}
+
+.fail-info>h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fail-description {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.failure-points p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* my plan area styles */
+.my-plan-container {
+    margin: 150px 0 150px 0;
+}
+
+.plan-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-title {
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.plan-text {
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+}
