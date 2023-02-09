@@ -7,7 +7,11 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* header style */
+main {
+    overflow: hidden;
+}
+
+/* header part style */
 header {
     background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
@@ -54,10 +58,44 @@ header {
     margin-top: 28px;
 }
 
-/* failure-part-style */
-main {
-    overflow: hidden;
+/* about me part style */
+.about-me-container {
+    padding: 150px 220px 0 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.about-details>h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-details>p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #737272;
+    padding-right: 90px;
+}
+
+.about-me-info {
+    margin-top: 20px;
+}
+
+.about-me-info p {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.about-btn {
+    margin-top: 20px;
+}
+.about-img img{
+    border-radius: 12px;
+}
+
+/* failure-part-style */
 
 .failure-container {
     padding: 0 220px;
@@ -193,6 +231,9 @@ main {
     border-radius: 10px;
     padding: 5px 0 5px 10px;
 }
-.submit-btn{
+
+.submit-btn {
     margin-top: 30px;
+    background: white;
+    color: #F15B22;
 }
