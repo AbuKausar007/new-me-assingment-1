@@ -124,6 +124,9 @@ header {
     font-size: 16px;
     line-height: 26px;
 }
+.fa-check {
+    color: #F15B22;
+}
 
 /* my plan area styles */
 .my-plan-container {
