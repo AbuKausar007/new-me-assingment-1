@@ -13,7 +13,7 @@ main {
 
 /* header part style */
 header {
-    background-image: url("../images/banner/banner1.png");
+    background-image: url("./images/banner/banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -161,7 +161,7 @@ header {
 
 /* positive part styles */
 .positive-container {
-    background-image: url("/images/watch.png"), url("/images/gradient/gradient3.png");
+    background-image: url("./images/watch.png"), url("./images/gradient/gradient3.png");
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
